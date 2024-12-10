@@ -34,6 +34,8 @@ Requirements:
 
 const API_URL = "http://localhost:3000";
 
+for (let i = 0; i < 5; i++) {}
+
 async function fetchProducts() {
   try {
     const response = await fetch(`${API_URL}/users`);
